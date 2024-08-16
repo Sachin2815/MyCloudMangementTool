@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="	https://unpkg.com/axios@0.24.0/dist/axios.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>document</title>
+  <style>
+    #Project_name {
+      font-size: 30px;
+
+    }
+
+    .navnav {
+      height: 110px;
+    }
+
+    .ul1 {
+      margin: auto;
+
+    }
+
+    .nav-link {
+      font-size: 20px;
+    }
+
+    .row_of_services {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+
+    }
+
+    .column_of_services {
+      display: flex;
+      align-items: center;
+
+      justify-content: center;
+      margin: 10px;
+      flex-direction: column;
+
+    }
+
+    .card {
+      margin: 10px;
+    }
+
+    .center-class {
+      display: flex;
+      justify-content: center;
+    }
+
+    .card-img-top {
+      height: 50%;
+      border-radius: 20px;
+    }
+
+    .card {
+      width: 20%;
+      border-radius: 20px;
+      height: 380px;
+    }
+
+    .card-text {
+      color: #03045e;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #parent_header {
+      height: 100px;
+      font-size: medium;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      border: 2px solid black;
+      background-color: aqua;
+    }
+
+    #header {
+      background-color:#0077b6;
+      display: flex;
+      float: left;
+      font-size: 86px;
+      text-align: center;
+
+
+    }
+
+    #image {
+      height: 100%;
+      width: 100%;
+    }
+    #bodyb{
+      display: flex;
+      flex-direction: column;
+      background-color: #90e0ef;
+    }
+    .main_body{
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body id="bodyb">
+
+  <div id="parent_header">
+    <div id="header" style="width: 20%; height:111px;">
+      <div id="image">
+        <img height="100%" width="100%"
+          src="https://th.bing.com/th/id/OIP.Y2DYpvvrFUXGmVQkPIvzewHaFL?w=264&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7" />
+      </div>
+    </div>
+
+    <div id="header" style="width: 80%;display: flex;justify-content: center;">
+      MEGH Cloud
+    </div>
+  </div>
+
+
+
+
+  <div class="main_body">
+
+
+    <div class="body-center">
+      <div class="center-class">
+        <div class="card" style="width: 18rem;">
+          <img src="cloud.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">AWS Cloud</h5>
+            <p class="card-text">"Boost your business with the power of the cloud." Use Cloud Services Here.....! </p>
+            <a href="aws.html" class="btn btn-primary">AWS</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="container.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Container </h5>
+            <p class="card-text">"Shipping made easy with our container services." Use Conatiner As a Services Here....!
+            </p>
+            <a href="docker.html" class="btn btn-primary">CaaS</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="python.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Python Services</h5>
+            <p class="card-text">“Python as a Service: The power of Python in the cloud” Use Python Services Here....!
+            </p>
+            <a href="python.html" class="btn btn-primary">Python</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="center-class">
+        <div class="card" style="width: 18rem;">
+          <img src="hadoop.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hadoop</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="hadoop.html" class="btn btn-primary">Use Hadoop</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="jenkins_image.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Jenkins</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="http://13.233.46.196:8080/job/docker/build?token=ketan123" class="btn btn-primary">Use Jenkins</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="WhatsApp Image 2023-07-22 at 15.06.05.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">AI</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="genai.html" class="btn btn-primary">Use GenAI</a>
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.marktechpost.com/wp-content/uploads/2022/08/Blog-Banner-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MLOPS</h5>
+            <p class="card-text">Welcome to the world of ML OPS.</p>
+            <a href="genai.html" class="btn btn-primary">USE MLOPS</a>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://futurumresearch.com/wp-content/uploads/2020/01/aws-logo.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">More AWS Services</h5>
+            <p class="card-text">\Here are more AWS services.</p>
+            <a href="http://3.109.186.87/ec2.html" class="btn btn-primary">Tap here for more</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  </div>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script>
+
+
+
+  </script>
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+
+
+  </style>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
